@@ -1,5 +1,6 @@
 amazon-mws-laravel
 ============
+Forked from https://github.com/przemekperon/amazon-mws-laravel.git
 Updating it to make it work with laravel Spark
 
 
