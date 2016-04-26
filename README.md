@@ -1,6 +1,10 @@
 amazon-mws-laravel
 ============
+Updating it to make it work with laravel Spark
 
+
+
+==========
 A PHP package to connect to Amazon's Merchant Web Services (MWS) in an object-oriented manner, with a focus on intuitive usage.
 
 Currently optimizing for Laravel Framework.

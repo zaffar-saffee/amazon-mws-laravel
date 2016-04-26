@@ -1,4 +1,5 @@
-<?php namespace Peron\AmazonMws;
+<?php 
+namespace Peron\AmazonMws;
 
 use Config, Log;
 use DateTime;
