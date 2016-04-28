@@ -14,7 +14,7 @@ This is __NOT__ for Amazon Web Services (AWS) - Cloud Computing Services.
 
 ## Installation
 
-1. `composer require peron/laravel5-amazon-mws`
+1. `composer require zaffar-saffee/amazon-mws-laravel`
 
 2. add the service provider to the providers array in config/app.php:
 ```
