@@ -411,6 +411,7 @@ abstract class AmazonCore
 
         if (array_key_exists($s, $store)) {
             $this->storeName = $s;
+            $this->log("Store $s found", 'Urgent');
             if (array_key_exists('merchantId', $store[$s])) {
                 $this->options['SellerId'] = $store[$s]['merchantId'];
             } else {
@@ -607,6 +608,7 @@ abstract class AmazonCore
         }
 
         $this->rawResponses[] = $response;
+        $this->log($response, 'Urgent');
         return $response;
     }
 
