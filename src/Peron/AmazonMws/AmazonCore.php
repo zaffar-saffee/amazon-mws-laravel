@@ -714,6 +714,8 @@ abstract class AmazonCore
                 curl_setopt($ch, CURLOPT_POSTFIELDS, $param['Post']);
             }
         }
+        $this->log($url, 'Urgent');
+        $this->log($param, 'Urgent');
 
         $data = curl_exec($ch);
         if (curl_errno($ch)) {
