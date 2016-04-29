@@ -408,7 +408,7 @@ abstract class AmazonCore
         // }
 
         $store = Config::get('amazon-mws.store');
-
+var_dump($store);
         if (array_key_exists($s, $store)) {
             $this->storeName = $s;
             $this->log("Store $s found", 'Urgent');
@@ -437,7 +437,7 @@ abstract class AmazonCore
             }
 
         } else {
-            throw new \Exception("Store $s does not exist!");
+            //throw new \Exception("Store $s does not exist!");
             $this->log("Store $s does not exist!", 'Warning');
         }
     }
